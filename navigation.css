@@ -1,0 +1,31 @@
+ul{
+    background-color:gray;
+    text-align:center;
+}
+
+li {
+    display:inline-block;
+    margin:10px;
+    background-color:darkred;
+    width:100px;
+    text-align:center;
+    font-size:30px;
+}
+
+li a {
+color:white;
+}
+
+a:hover,
+li:hover{
+    color:greenyellow;
+    background-color:blue;
+}
+
+a:active,
+li:active{
+    background-color:black;
+    color:crimson;
+    padding-left:5px;
+    padding-right:5px;
+}
